@@ -3,6 +3,8 @@ layout: "single"
 ---
 
 # Alacritty
+[Official Site](https://alacritty.org/)
+[Repo](https://github.com/alacritty/alacritty)
 
 {{< unsupported >}}
 
@@ -13,6 +15,8 @@ Related PR: https://github.com/alacritty/alacritty/pull/4763
 ---
 
 # Black Box
+[Official Site](https://gitlab.gnome.org/raggesilver/blackbox?ref=terminaltrove)
+[Repo](https://gitlab.gnome.org/raggesilver/blackbox?ref=terminaltrove)
 
 {{< unsupported >}}
 
@@ -21,6 +25,7 @@ Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 ---
 
 # Bobcat
+[Repo](https://github.com/ismail-yilmaz/Bobcat)
 
 {{< supported >}}
 
@@ -29,14 +34,18 @@ Relies on upstream VTE support: https://gitlab.gnome.org/GNOME/vte/-/issues/253
 ---
 
 # ConEmu
+[Official Site](https://conemu.github.io/)
+[Repo](https://github.com/Maximus5/ConEmu)
 
 {{< unsupported >}}
 
-Open issue: https://github.com/Maximus5/ConEmu/issues/807
+[Open issue](https://github.com/Maximus5/ConEmu/issues/807)
 
 ---
 
 # Contour
+[Official Site](https://contour-terminal.org/)
+[Repo](https://github.com/contour-terminal/contour)
 
 {{< supported >}}
 
@@ -45,6 +54,8 @@ Natively Supports Sixel. Sixel is available in any version.
 ---
 
 # ctx terminal
+[Official Site](https://ctx.graphics/terminal/)
+[Repo](https://ctx.graphics/log.html)
 
 {{< supported >}}
 
@@ -53,6 +64,7 @@ From commit [1c51989b16e](https://ctx.graphics/commit/1c51989b16edf01f5debd21c74
 ---
 
 # Darktile
+[Repo](https://github.com/liamg/darktile)
 
 {{< supported >}}
 
@@ -61,14 +73,17 @@ From commit [978d506](https://github.com/liamg/darktile/commit/978d5067f6e4cd428
 ---
 
 # DomTerm
+[Official Site](https://domterm.org/index.html)
+[Repo](https://github.com/PerBothner/DomTerm)
 
 {{< supported >}}
 
-From version 2.0 (September 2019): https://domterm.org/Features.html.
+From [version 2.0 (September 2019)](https://domterm.org/Features.html).
 
 ---
 
 # Eat
+[Repo](https://codeberg.org/akib/emacs-eat)
 
 {{< supported >}}
 
@@ -77,6 +92,8 @@ From [version 0.9](https://codeberg.org/akib/emacs-eat/commit/38ba9a99b0983ecce4
 ---
 
 # Elementary Terminal
+[Official Site](https://elementary.io/)
+[Repo](https://github.com/elementary/terminal)
 
 {{< unsupported >}}
 
@@ -351,9 +368,11 @@ Could not find any sixel references in source code.
 
 # Windows Terminal
 
-{{< unsupported >}}
+{{< alert >}}
 
-Open issue: https://github.com/microsoft/terminal/issues/448.
+Sixel support has been added as of [Windows Terminal Preview 1.22](https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-22-release/#sixel-image-support), but is not in the stable release yet.
+
+The [related issue](https://github.com/microsoft/terminal/issues/448) has now been closed.
 
 ---
 
